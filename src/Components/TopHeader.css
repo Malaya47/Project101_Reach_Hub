@@ -1,0 +1,67 @@
+.top__Header{
+    font-family: "Inter", sans-serif;
+    background-color: #003d29;
+    /* border: 2px solid black; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top__LeftHeader{
+    /* border: 1px solid red; */
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+.top__LeftHeader > .contact__image{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.top__MiddleHeader{
+    /* border: 1px solid red; */
+    font-size: 12px;
+    line-height: 16.8px
+    
+}
+
+.top__RightHeader{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    margin-right: 40px;
+    width: 200px
+    
+
+    
+    
+}
+
+.top__RightLanguage{
+    /* border: 1px solid blue; */
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    
+    
+    
+}
+
+.top__RightCountry{
+    /* border: 1px solid pink; */
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    
+    
+    
+}

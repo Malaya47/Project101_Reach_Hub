@@ -1,0 +1,90 @@
+.wrapper{
+    /* border: 5px solid black ; */
+    background-color: rgb(235, 228, 228);
+    display: inline-block;
+    flex-direction: column;
+    object-fit: contain;
+    margin: 10px;
+    
+    
+}
+
+.card__category h2.movie__Category{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.wrapper h3 {
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 18px;
+}
+
+.wrapper p{
+    font-size: 12px;
+    line-height: 25px;
+}
+.wrapper img{
+    transition: transform 450ms;
+    height: 302px;
+    width: 302px;
+    max-width: 100%;
+    
+}
+.card__container{
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.wrapper p img{
+    width: 14px;
+    height: 14px;
+    position: relative;
+}
+
+.text {
+    font-size: 20px;
+    position: relative;
+    left: 13em;
+    bottom: 5.8em;
+    
+}
+
+.dollar {
+    font-size: 50%;
+    position:relative;
+    top:-.6em;
+}
+
+.wrapper button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.wrapper img.add__Tofavourite{
+    width: 20px;
+    height: 17px;
+    position: relative;
+    bottom: 27rem;
+    left: 17rem;
+    
+}
+
+.wrapper button:hover{
+    background-color:#003d29;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+img.poster__Image:hover{
+    transform: scale(1.08);
+}
+
+.wrapper img.add__Tofavourite:hover{
+    background-color: rgb(223, 157, 157);
+    transition: background-color 1s ease;
+}
